@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {},
+    // colors:{
+    //   orange:'rgba(255, 187, 122, 1)'
+    // },
   },
   plugins: [],
 }
