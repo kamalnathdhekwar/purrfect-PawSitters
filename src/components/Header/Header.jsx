@@ -34,7 +34,7 @@ export default function Header() {
                         className=" justify-between   items-end"
                         id="mobile-menu-2"
                     >
-                        <ul className="flex  mt-4 font-medium md:flex-row space-x-8  items-center">
+                        <ul className="flex  mt-4 font-semibold md:flex-row space-x-8  items-center text-lg">
                             <li>
                                 <NavLink
                                 to="/"
