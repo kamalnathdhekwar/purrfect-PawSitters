@@ -11,8 +11,8 @@ function LeftImg() {
 
             {/* right */}
             <div className="space-y-5 ">
-                <h1 className="text-4xl font-bold">Day Care</h1>
-                <p className="text-2xl font-semibold text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis optio dicta maiores aperiam ut, impedit.</p>
+                <h1 className="text-4xl font-bold">{title}</h1>
+                <p className="text-2xl font-semibold text-center">{contents}</p>
                 <a href="#_" class="relative inline-block px-4 py-2 font-medium group">
 <span class="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
 <span class="absolute inset-0 w-full h-full bg-white border-2 border-black group-hover:bg-black"></span>

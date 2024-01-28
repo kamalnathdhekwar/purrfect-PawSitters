@@ -4,6 +4,8 @@ import homeImg from '../../assets/mainPage.svg'
 import HomeCard from '../Cards/HomeCard';
 import LeftImg from '../Cards/LeftImg';
 import RightImg from '../Cards/RightImg';
+
+
 export default function Home() {
     return (
         <div className="mx-auto w-full ">
