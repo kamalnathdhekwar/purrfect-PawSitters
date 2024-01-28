@@ -1,15 +1,10 @@
 import React from 'react'
 import ll from '../../assets/squares.svg'
-function LeftImg() {
+function RightImg() {
   return (
-    <div className=''>
+    <div>
         <div className="flex justify-evenly max max-w-screen-md m-auto gap-32">
             {/* left */}
-            <div className="">
-             <img src={ll} alt="" className="" />
-            </div>
-
-            {/* right */}
             <div className="space-y-5 ">
                 <h1 className="text-4xl font-bold">Day Care</h1>
                 <p className="text-2xl font-semibold text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis optio dicta maiores aperiam ut, impedit.</p>
@@ -20,10 +15,13 @@ function LeftImg() {
 </a>
             </div>
 
-
+            {/* right */}
+            <div className="">
+             <img src={ll} alt="" className="" />
+            </div>
         </div>
     </div>
   )
 }
 
-export default LeftImg
+export default RightImg
