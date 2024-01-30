@@ -28,7 +28,7 @@ export default function Header() {
                     
                     <Nav/>
                     {/* <DarkMode/> */}
-                    <DarkMode/>
+                    
                     {/* <div
                         className=" justify-between   items-end"
                         id="mobile-menu-2"
