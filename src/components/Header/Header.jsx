@@ -1,10 +1,12 @@
 import React from 'react'
 import {Link, NavLink} from 'react-router-dom'
 import dogLogo from '../../assets/logoDog.svg'
+import Nav from './Nav';
+
 
 export default function Header() {
     return (
-        <header className="shadow sticky z-50 top-0">
+        <header className="shadow sticky z-50 top-0 ">
             <nav className=" bg-orange-300  border-gray-200 px-4 lg:px-6 py-2.5">
                 <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
                     <Link to="/" className="flex items-center">
@@ -24,11 +26,14 @@ export default function Header() {
                         </Link>
                     </div>
                     
-                    <div
+                    <Nav/>
+                    {/* <DarkMode/> */}
+                    <DarkMode/>
+                    {/* <div
                         className=" justify-between   items-end"
                         id="mobile-menu-2"
                     >
-                        <ul className="flex  font-semibold md:flex-row space-x-8  items-center text-lg">
+                        <ul className="flex  font-semibold md:flex-row space-x-8  items-center text-lg md:hidden ">
                             <li>
                                 <NavLink
                                 to="/"
@@ -72,7 +77,8 @@ export default function Header() {
                             
                             
                         </ul>
-                    </div>
+                    </div> */}
+
                 </div>
             </nav>
         </header>
