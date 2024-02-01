@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link, NavLink} from 'react-router-dom'
 import dogLogo from '../../assets/logoDog.svg'
-import Nav from './Nav';
+
 
 
 export default function Header() {
@@ -26,14 +26,14 @@ export default function Header() {
                         </Link>
                     </div>
                     
-                    <Nav/>
-                    {/* <DarkMode/> */}
                     
-                    {/* <div
+                   
+                    
+                    <div
                         className=" justify-between   items-end"
                         id="mobile-menu-2"
                     >
-                        <ul className="flex  font-semibold md:flex-row space-x-8  items-center text-lg md:hidden ">
+                        <ul className="flex  font-semibold md:flex-row space-x-8  items-center text-lg ">
                             <li>
                                 <NavLink
                                 to="/"
@@ -77,7 +77,7 @@ export default function Header() {
                             
                             
                         </ul>
-                    </div> */}
+                    </div> 
 
                 </div>
             </nav>

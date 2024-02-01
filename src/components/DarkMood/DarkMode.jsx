@@ -1,22 +1,21 @@
-import React from "react";
-import { ReactComponent as Sun } from "./Sun.svg";
-import { ReactComponent as Moon } from "./Moon.svg";
+import React from 'react'
+import sun from "./Sun.svg"
+import moon from "./Moon.svg"
 import "./DarkMode.css";
 
-export default function DarkMode() {
+export default function Darkmode() {
     return (
         <div className='dark_mode'>
-            {/* <input
+            <input
                 className='dark_mode_input'
                 type='checkbox'
                 id='darkmode-toggle'
             />
-            <label className='dark_mode_label' for='darkmode-toggle'>
-                <Sun />
-                <Moon />
-            </label> */}
+            <label For='darkmode-toggle' className='dark_mode_label' >
+                <img src={sun} alt=""  className='game'/>
+                <img src={moon} alt="" className='game'/>
+            </label>
         </div>
     );
 };
-
 
