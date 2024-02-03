@@ -19,7 +19,7 @@ export default function Header() {
                         <h1 className="text-4xl font-extrabold text  dark:text-orange-300 text-white">Purrfect PawSitters</h1>
                     </Link>
                    
-                    <div className="flex items-center lg:order-2">
+                    <div className="flex items-center lg:order-2 gap-4">
 
                         <Link
                             to="/"
