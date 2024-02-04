@@ -1,73 +1,53 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import Grid from './Grid';
+import dogLogo from '../../assets/logoDog.svg'
+import qrCode from '../../assets/QrCode.svg'
+import twitter from '../../assets/twitter.svg'
+import linkedIn from '../../assets/linkedIn.svg'
+import facebook from '../../assets/facebook.svg'
+import instagram from '../../assets/instagram.svg'
 
 export default function Footer() {
     return (
         <footer className="bg-orange-300 border-y dark:bg-slate-900">
-            <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8 text-white">
+            <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8 text-white dark:text-slate-300">
                 <div className="md:flex md:justify-between">
-                    <div className="mb-6 md:mb-0">
-                        <Link to="/" className="flex items-center">
-                            <img
-                                src=""
-                                className="mr-3 h-16"
-                                alt="Logo"
-                            />
-                        </Link>
+                    <div className="mb-6 md:mb-0 mr-8">
+                        
+                       <div className="space-y-4">
+                        <div className="flex gap-1 ">
+                           <img src={qrCode} alt="QR-Code" className=" " />
+                           <div className="mt-3">
+                            <div className="flex">
+                                <img src={dogLogo} alt="" className="h-10" />
+                                <h1 className="text-2xl font-bold mt-1">PAWSITTERS</h1>
+                            </div>
+                            <p className="text-lg text-center">Scan QR For More</p>
+                           </div>
+                        </div>
+        
+                        {/* bottom */}
+                        <div className="flex gap-3">
+                         <a href="" className=""><img src={twitter} alt="twitter" className="" /></a>
+                         <a href="" className=""><img src={linkedIn} alt="linkedIn" className="" /></a>
+                         <a href="" className=""><img src={facebook} alt="facebook" className="" /></a>
+                         <a href="" className=""><img src={instagram} alt="instagram" className="" /></a>
+                        </div>
+                       </div>
+
                     </div>
-                    <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-                        <div>
-                            <h2 className="mb-6 text-sm font-semibold  uppercase">Resources</h2>
-                            <ul className=" font-medium">
-                                <li className="mb-4">
-                                    <Link to="/" className="hover:underline">
-                                        Home
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link to="/about" className="hover:underline">
-                                        About
-                                    </Link>
-                                </li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h2 className="mb-6 text-sm font-semibold  uppercase">Follow us</h2>
-                            <ul className=" font-medium">
-                                <li className="mb-4">
-                                    <a
-                                        href="https://github.com/kamalnathdhekwar"
-                                        className="hover:underline"
-                                        target="_blank"
-                                        rel="noreferrer"
-                                    >
-                                        Github
-                                    </a>
-                                </li>
-                                <li>
-                                    <Link to="/" className="hover:underline">
-                                        Discord
-                                    </Link>
-                                </li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h2 className="mb-6 text-sm font-semibold  uppercase">Legal</h2>
-                            <ul className=" font-medium">
-                                <li className="mb-4">
-                                    <Link to="#" className="hover:underline">
-                                        Privacy Policy
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link to="#" className="hover:underline">
-                                        Terms &amp; Conditions
-                                    </Link>
-                                </li>
-                            </ul>
-                        </div>
+
+                    <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-4 ">
+                        
+                        <Grid heading="Services" list1="Pet Caretaking" list2="Grooming" list3="Veterinary Services"/>
+                        <Grid heading="Our Trust" list1="Reliability" list2="Professionalism" list3="Commitment to excellence"/>
+                        <Grid heading="Contact us" list1="9156761677"  />
+                        <Grid heading="Visit our FAQ page" />
+                         
                     </div>
                 </div>
+
                 <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
                 <div className="sm:flex sm:items-center sm:justify-between">
                     <span className="text-sm  sm:text-center">
