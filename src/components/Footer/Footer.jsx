@@ -11,9 +11,9 @@ import instagram from '../../assets/instagram.svg'
 export default function Footer() {
     return (
         <footer className="bg-orange-300 border-y dark:bg-slate-900">
-            <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8 text-white dark:text-slate-300">
-                <div className="md:flex md:justify-between">
-                    <div className="mb-6 md:mb-0 mr-8">
+            <div className="mx-auto w-full  p-4 py-6 lg:py-8 text-white dark:text-slate-300">
+                <div className="md:flex md:justify-between mx-5">
+                    <div className="mb-6 md:mb-0 ">
                         
                        <div className="space-y-4">
                         <div className="flex gap-1 ">
@@ -38,7 +38,7 @@ export default function Footer() {
 
                     </div>
 
-                    <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-4 ">
+                    <div className="grid grid-cols-2 gap-4 sm:gap-6 sm:grid-cols-4  ml-8">
                         
                         <Grid heading="Services" list1="Pet Caretaking" list2="Grooming" list3="Veterinary Services"/>
                         <Grid heading="Our Trust" list1="Reliability" list2="Professionalism" list3="Commitment to excellence"/>
