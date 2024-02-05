@@ -4,13 +4,13 @@ import ll from '../../assets/squares.svg'
 function RightImg({img,title,content}) {
   return (
     <div>
-        <div className="flex justify-center items-center  max max-w-screen-lg m-auto gap-32 sm:flex-row  flex-col">
+        <div className="flex justify-center items-center  max max-w-screen-lg m-auto gap-32 sm:flex-row  flex-col dark:text-slate-100">
             {/* left */}
             <div className="space-y-9  max-w-sm ">
-            <h1 className="text-4xl font-bold text-center">{title}</h1>
+            <h1 className="text-4xl font-bold text-center dark:text-orange-300 ">{title}</h1>
                 <p className="text-2xl font-semibold text-center">{content}</p>
-                <a href="#_" class="mx-auto  max-w-[126px]  realtive flex px-4 py-2 font-medium group bg-black rounded-lg">
-                  <span class="relative  text-white  ">Enquire now</span>
+                <a href="#_" class="mx-auto  max-w-[126px]  realtive flex px-4 py-2 font-medium group bg-black dark:bg-orange-300 rounded-lg">
+                  <span class="relative  text-white  dark:text-slate-100">Enquire now</span>
                 </a>
             </div>
 
