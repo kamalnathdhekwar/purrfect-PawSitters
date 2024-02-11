@@ -9,7 +9,7 @@ function LeftImg({img,title,content,linked}) {
         <div className="flex justify-center items-center max max-w-screen-lg m-auto gap-32 sm:flex-row  flex-col-reverse dark:text-slate-100">
             {/* left */}
             <div className="">
-             <img src={img} alt="" className="h-[90%]" />
+             <img src={img} alt="" className=" rounded-full" />
             </div>
 
             {/* right */}

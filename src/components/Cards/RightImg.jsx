@@ -16,7 +16,7 @@ function RightImg({img,title,content}) {
 
             {/* right */}
             <div className="">
-             <img src={img} alt="" className="" />
+             <img src={img} alt="" className="rounded-full" />
             </div>
         </div>
     </div>
