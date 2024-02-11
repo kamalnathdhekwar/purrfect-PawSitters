@@ -8,6 +8,14 @@ import Home from './components/Home/Home.jsx'
 import About from './components/About/About.jsx'
 import Layout from './Layout.jsx'
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom'
+import Daycare from './components/subpages/Daycare.jsx'
+import BreedingAssistance from './components/subpages/BreedingAssistance.jsx'
+import Grooming from './components/subpages/Grooming.jsx'
+import VeterinaryAssistance from './components/subpages/VeterinaryAssistance.jsx'
+import PetTraining from './components/subpages/PetTraining.jsx'
+import Walking from './components/subpages/Walking.jsx'
+
+
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -16,6 +24,13 @@ const router = createBrowserRouter(
      <Route path='about' element={<About/>} />
      <Route path='help' element={<Help/>} />
      <Route path='service' element={<Service/>} />
+     <Route path='daycare' element={<Daycare/>} />
+     <Route path='breeding-assistance' element={<BreedingAssistance/>} />
+     <Route path='grooming' element={<Grooming/>} />
+     <Route path='veterinary-assistance' element={<VeterinaryAssistance/>} />
+     <Route path='pet-training' element={<PetTraining/>} />
+     <Route path='walking' element={<Walking/>} />
+    
     </Route>
   )
 )

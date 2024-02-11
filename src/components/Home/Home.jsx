@@ -17,7 +17,7 @@ export default function Home() {
         <img src={homeImg} alt="" className=" w-screen " />
         <HomeCard/>
         <div className="flex space-y-24 flex-col">
-        <LeftImg img={dayCare2} title="Day Care" content="Where furry friends feel at home: Find your perfect pet caretaker today! " linked=""/>
+        <LeftImg img={dayCare2} title="Day Care" content="Where furry friends feel at home: Find your perfect pet caretaker today! " linked="/daycare"/>
         <RightImg img={grooming2} title="Grooming" content=" Let us handle it all for you, so you can focus on the more important things in life."/>
         </div>
         </div>

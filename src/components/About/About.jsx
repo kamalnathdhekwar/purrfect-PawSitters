@@ -2,7 +2,9 @@ import React from 'react'
 
 function About() {
   return (
-    <div>About</div>
+    <div>  
+    <h1 className="text-8xl font-extrabold text-center">About</h1>
+    </div>
   )
 }
 
