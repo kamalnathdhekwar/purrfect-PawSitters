@@ -28,7 +28,7 @@ const router = createBrowserRouter(
      <Route path='breeding-assistance' element={<BreedingAssistance/>} />
      <Route path='grooming' element={<Grooming/>} />
      <Route path='veterinary-assistance' element={<VeterinaryAssistance/>} />
-     <Route path='pet-training' element={<PetTraining/>} />
+     <Route path='pettraining' element={<PetTraining/>} />
      <Route path='walking' element={<Walking/>} />
     
     </Route>

@@ -1,8 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 function Grooming() {
   return (
-    <div>Grooming</div>
+    <div>
+      grooming
+    </div>
   )
 }
 

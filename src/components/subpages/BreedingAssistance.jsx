@@ -1,11 +1,11 @@
 import React from 'react'
-import Head from '../Header/Header'
+import { Link } from 'react-router-dom';
 
 function BreedingAssistance() {
   return (
     
     <div>
-         <Head/>
+        BreedingAssistance
     </div>
   )
 }
