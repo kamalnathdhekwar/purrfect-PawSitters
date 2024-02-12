@@ -15,7 +15,7 @@ function LeftImg({img,title,content,linked}) {
             {/* right */}
             <div className="space-y-9  max-w-sm ">
                 <h1 className="text-4xl font-bold text-center dark:text-orange-300">{title}</h1>
-                <p className="text-2xl text-center">{content}</p>
+                <p className="md:text-2xl text-center text-xl">{content}</p>
                 <a href="#_" class="mx-auto  max-w-[126px]  realtive flex px-4 py-2 font-medium group bg-black dark:bg-orange-300 rounded-lg">
                 
                   <NavLink to={linked}>

@@ -7,8 +7,8 @@ import Darkmode from '../DarkMood/DarkMode';
 
 export default function Header() {
     return (
-        <header className="shadow sticky z-50 top-0 ">
-            <nav className=" dark:bg-slate-900 bg-orange-300   border-gray-200 lg:px-6 py-2.5">
+        <header className="shadow-lg sticky z-50 top-0  shadow-slate-300 ">
+            <nav className=" dark:bg-slate-900 bg-orange-300   border-gray-200 lg:px-6 py-2.5 shad ">
                 <div className="flex flex-wrap justify-between items-center mx-auto ">
                     <Link to="/" className="flex items-center">
                         <img
